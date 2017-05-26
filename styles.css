@@ -1,0 +1,49 @@
+/* a style comment */
+
+body {
+	font-family: sans-serif;
+}
+
+#image_container {
+	float:left; padding-right: 20px;
+}
+
+h1 {
+	color:green;
+}
+
+table, th, td {
+   padding: 10px
+}
+.button {
+	border-radius: 5px;
+	background-color:#305b90;
+	color: white;
+	padding: 14px 20px;
+	margin-bottom: : 14px;
+}
+
+#text_container {
+	padding:50px;
+	width: 33.3333%;
+    box-sizing: border-box;
+}
+
+#li {
+	padding: 0
+	width:50%;
+}
+.bio {
+	margin-left: 0;
+    margin-right: 0;
+    margin-top: 25px;
+    width: 95%;
+}
+.clear {
+	clear: both;
+}
+.hlist {
+	list-style-type: none;
+	display:inline;
+	text-align: center;
+}
