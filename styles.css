@@ -70,3 +70,9 @@ table, th, td {
 	float: right;
 	font-size: 13px;
 }
+.linkicons {
+	clear: both;
+	font-size: 30px;
+	text-align: center;
+	text-decoration-color: grey;
+}
