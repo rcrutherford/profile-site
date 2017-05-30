@@ -13,8 +13,11 @@ table, th, td {
 	background-color:#305b90;
 	color: white;
 	padding: 14px 20px;
-	margin-bottom: : 14px;
 	text-decoration: none;
+}
+.button_cont {
+	padding-top:20px;
+	padding-bottom: 20px;
 }
 #image_container {
 	float:left; 
@@ -70,9 +73,11 @@ table, th, td {
 	float: right;
 	font-size: 13px;
 }
-.linkicons {
+.linkicons a {
 	clear: both;
-	font-size: 30px;
-	text-align: center;
-	text-decoration-color: grey;
+	font-size: 35px;
+	text-align: left;
+	text-decoration: none;
+	color: grey;
+	padding: 5px;
 }
