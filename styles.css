@@ -23,17 +23,20 @@ table, th, td {
     background-repeat: no-repeat;
     background-position: 50% 50%; 
 	background-size: cover;
-	/* background-attachment: fixed; */
-	min-height: 500px;
+	background-attachment: fixed; 
+	background-position: center;
+	/*min-height: 500px;*/
 	width: 66%;
+	height: 700px;
 
 }
 
 #text_container {
-	padding:50px;
+	padding:40px;
 	width: 33.3333%;
     box-sizing: border-box;
     float:right;
+    min-width: 300px
 }
 
 #li {
@@ -59,9 +62,11 @@ table, th, td {
 	width: 40%;
 	padding: 10px;
 	float: left;
+	font-size: 13px;
 }
 .edu {
 	width: 40%;
 	padding: 10px;
 	float: right;
+	font-size: 13px;
 }
