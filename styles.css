@@ -21,7 +21,6 @@ table, th, td {
 }
 #image_container {
 	float:left; 
-	
 	background-image: url("./images/ron_in_canyon_horz_crop.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%; 
@@ -29,8 +28,10 @@ table, th, td {
 	background-attachment: fixed; 
 	background-position: center;
 	/*min-height: 500px;*/
-	width: 66%;
+	width: 50%;
 	height: 700px;
+	position: fixed;
+	border: 2px solid black;
 
 }
 
@@ -38,13 +39,15 @@ table, th, td {
 	padding:40px;
 	width: 33.3333%;
     box-sizing: border-box;
-    float:right;
-    min-width: 300px
+    /*float:right;*/
+    min-width: 300px;
+    border: 2px solid black;
 }
 
 #li {
-	padding: 0
+	padding: 0;
 	width:50%;
+	border: 2px solid black;
 }
 .bio {
 	margin-left: 0;
