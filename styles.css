@@ -28,9 +28,9 @@ table, th, td {
 	background-attachment: fixed; 
 	background-position: center;
 	/*min-height: 500px;*/
-	width: 50%;
+	width: 64%;
 	height: 700px;
-	position: fixed;
+	/*position: fixed;*/
 	border: 2px solid black;
 
 }
